@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.container {
+  width: 600px;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #eee;
+}
+.container input {
+  padding: 15px;
+  border: none;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 12px;
+}
+.container input:focus {
+  outline: none;
+}
+.container .button {
+  display: flex;
+  justify-content: space-between;
+}
+.container .button span {
+  background-color: #009688;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  padding: 6px 10px;
+}
+.container .result {
+  background-color: #fff;
+  border: 2px dashed #eee;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+.container .result span span {
+  font-weight: bold;
+  color: #009688;
+}
+.container .result span .key {
+  display: block;
+}
